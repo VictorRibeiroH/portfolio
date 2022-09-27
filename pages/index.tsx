@@ -1,6 +1,5 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
   return (
@@ -9,7 +8,7 @@ const Home: NextPage = () => {
         <title>Victor Ribeiro Portfolio</title>
       </Head>
 
-      <h1>meu Portfolio</h1>
+      <h1 className="text-blue-800">meu Portfolio</h1>
     </div>
   );
 };
